@@ -1,0 +1,43 @@
+.country-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.label {
+    text-align: left;
+    margin: "10px"
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #AAA;
+}
+
+.list {
+    display: block;
+    position: absolute;
+    border: 1px solid #EEE;
+    background: #FFF;
+    top: 100px;
+    padding-left: 10px;
+}
+
+.airport-name {
+    color: #555;
+}
+
+.airport-name,
+.city-name {
+    margin: 5px;
+    text-align: left;
+    display: block;
+}
+
+.red {
+    color: red;
+    text-transform: initial;
+    font-weight: bold;
+}

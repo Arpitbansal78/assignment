@@ -1,0 +1,16 @@
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.flight-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.change-btn {
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
